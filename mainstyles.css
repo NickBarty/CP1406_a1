@@ -39,19 +39,19 @@ a.noStyle:hover {
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    text-align: justify;
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.6) 100%), url(images/sand.jpg);
 }
 
 /*div sectioning and formatting*/
 div.container {
     position: relative;
-    top: 30px;
+    top: 20px;
     border: solid #003cb3;
-    width: 90%;
+    width: 94%;
     margin: 0 auto;
     padding-bottom: 10px;
     background: #f2f2f2;
+    overflow: hidden;
 }
 
 div.contact {
@@ -80,6 +80,14 @@ div.textBody {
     padding-right: 10px;
 }
 
+div.textBodyMedium {
+    position: relative;
+    text-align: justify;
+    font-size: 1.2em;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 div.textBodySmall {
     position: relative;
     text-align: justify;
@@ -93,10 +101,20 @@ div.textBody a {
     text-decoration: none;
 }
 
+div.textBodyMedium a {
+    color: #003cb3;
+    text-decoration: none;
+}
+
 /*span class's*/
 .bold {
     font-weight: 700;
 }
+
+.italic {
+    font-style: italic;
+}
+
 /*sign up form formtting*/
 label {
     display: block;
@@ -104,11 +122,51 @@ label {
     float: left;
     cursor: pointer;
 }
+
 label:before {
     display: block;
     content: " ";
     padding-top: 3px;
 }
+
 input {
     margin-bottom: 8px;
+}
+
+/*list space formatting*/
+li:after {
+    display: block;
+    content: " ";
+    padding-top: 15px;
+}
+
+/*Table Formating*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    color: black;
+}
+
+th, td {
+    text-align: center;
+    padding: 2px;
+    border-bottom: 2px solid black;
+}
+
+table tbody tr:hover {
+    background-color: #ffd11a;
+}
+
+/* image formatting */
+.imgright {
+    float: right;
+    margin-left: 10px;
+}
+
+.imgleft {
+    float: left;
+    margin-right: 10px;
 }
