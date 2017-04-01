@@ -175,4 +175,5 @@ img.center {
     display: block;
     margin: 0 auto;
     padding-top: 40px;
+    padding-bottom: 10px;
 }
