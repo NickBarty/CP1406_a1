@@ -161,12 +161,18 @@ table tbody tr:hover {
 }
 
 /* image formatting */
-.imgright {
+img.right {
     float: right;
     margin-left: 10px;
 }
 
-.imgleft {
+img.left {
     float: left;
     margin-right: 10px;
+}
+
+img.center {
+    display: block;
+    margin: 0 auto;
+    padding-top: 40px;
 }
