@@ -162,7 +162,13 @@ img.left {
     margin-right: 10px;
 }
 
-div.center {
+img.center {
+    display: block;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+div.center{
     display: block;
     margin: 0 auto;
     width: 4%;
